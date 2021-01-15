@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*Fondo de portada*/
+.div-banner{
+    height: 300px;
+    background-image: url("../img/portada\(Comprimida\).jpg");
+    background-size: cover;/*se ajusta el tamaño de la imagen a la caja*/
+    background-attachment: fixed;/*posisciona el background en el viewport*/
+    background-position: center -160px;
+    background-repeat: no-repeat;
+    max-width: 98%;
+    display: block;
+    margin: 10px auto 10px;
+    border-radius: 10px;
+}
+
+.div-banner > .bienvenida{
+   
+    position: relative;
+    width: 80%;
+    height: 80%;
+    top: 40px;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(19, 19, 58);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    /*text-align: center;*/
+    /*border: 1px solid red;*/
+
+}
+
+.documento{
+    width: 90%;
+    margin: 25px auto 35px;
+    font-family: arial;
+    
+    top: 100px;
+    left: 70px;
+    z-index: 10;
+}
+
+
+.section-2{
+    margin-top: 100px;
+}
+@media(max-width: 375px){
+
+        /*Fondo de portada*/
+    .div-banner{
+        height: 300px;
+        background-image: url("../img/portada\(Comprimida\).jpg");
+        background-size: cover;/*se ajusta el tamaño de la imagen a la caja*/
+        background-attachment: fixed;/*posisciona el background en el viewport*/
+        background-position: center -160px;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        display: block;
+        margin: 10px auto 10px;
+        border-radius: 0px;
+    }
+
+    .div-banner > .bienvenida{
+    
+        position: relative;
+        width: 80%;
+        height: 80%;
+        top: 40px;
+        margin: 0 auto;
+        font-size: 18px;
+        color: rgb(245, 245, 250);
+        font-family: Arial, Helvetica, sans-serif;
+        /*text-align: center;*/
+        /*border: 1px solid red;*/
+
+    }
+
+    .documento{
+        width: 90%;
+        margin: 0 auto 35px;
+        font-family: arial;
+        
+    
+        z-index: 10;
+    }
+
+
+    .section-2{
+        margin-top: 100px;
+
+
+    }
+}

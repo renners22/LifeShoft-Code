@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*NP es Nombre de la pagina*/
+.NP{
+    font-family: verdana;
+    padding: 10px;
+    display: inline-block;
+   
+}
+/*B-N es Barra de navegacion y lo demas son los items que estan dentro de esta barra de navegacion*/
+
+.main-menu{
+    
+   
+    /*tamaño*/
+    max-width: 98%;
+    height: 38px;
+    /*fondo*/
+    
+    /*background-image: linear-gradient( rgba(55, 61, 95, 0.514),rgba(45, 43, 59, 0.788));*/
+    background-color: rgba(2, 2, 2, 0.425); 
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(73, 73, 73, 0.555);
+    background-image: linear-gradient(to right, rgba(137, 115, 154, 0.541), rgba(55, 64, 105, 0.479), rgba(22, 21, 21, 0.582));
+    /*otros*/
+    
+    position: sticky;
+    top: 2px;
+    /*border*/
+    border-radius: 10px;
+    /*margin*/
+    margin: 0 auto;
+    /*letra*/
+    color: #fff;
+    font-family: arial;
+
+    z-index: 500;
+    
+
+}
+.main-menu > ul{
+    margin: 0 auto ;
+    width:  90%;
+    height: 100%;
+}
+.main-menu > ul > li{
+    display: inline-block;
+    height: 100%;
+    
+    
+    
+    
+}
+.main-menu > ul > li > a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700; 
+    color: #fff;
+    padding: 5px;
+    margin: 3px 3px;
+    text-align: center;
+}
+.main-menu > ul > li > .main-menu__item--active{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 10px;
+    
+    
+    
+}
+.main-menu > ul > li > .main-menu__item--active:hover{
+    background-color:  rgb(252, 252, 252);
+    border: 2px solid rgb(120, 117, 137);
+    border-radius: 10px;
+    color: rgb(120, 117, 137);
+    transform: scale(1,1);
+    
+    
+}

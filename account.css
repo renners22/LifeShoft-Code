@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.documento{
+    width: 60%;
+    height: 600px;
+    margin: -40px auto 10px;
+
+
+
+}
+.form-background{
+    position: relative;
+    top: 50px;
+    width: 80%;
+    height: 500px;
+    background-image: url("../img/wallpaper.jpg");
+    border-radius: 10px;
+    color: rgb(43, 41, 41);
+    margin: 0px auto;
+    
+    
+}
+.form-second-background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(65px);
+    border-radius: 10px;
+    
+
+}
+.LSC-img{
+    position: absolute;
+    background-image: url("../img/imgLSC.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 10px solid white;
+    z-index: 30;
+
+
+}
+
+.form-items{
+    width: 70%;
+    height: 500px;
+    position: relative;
+    top: 80px;
+    margin: 90px auto;
+    
+    
+
+
+}
+.form-items > .form-items__LSC-text{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.form-items > .form-items__wtv-text{
+    margin-top: 50px;
+    border: 1px soldi red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    margin: 25px 0px 0px 0px;
+}
+.form-items > form > label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.form-items > form > input{
+    width: 100%;
+    
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid rgb(27, 27, 27);
+    font-size: 16px;
+    color: rgb(46, 76, 131);
+    margin-bottom: 20px;
+
+}
+
+.form-items > form > input:focus{
+    outline: none;
+}
+.form-btn{
+    width: 120px;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    font-family: Arial, Helvetica;
+    font-size: 15px;
+    font-weight: bold;
+}
+.form-btn:nth-of-type(1){
+    border: 1px solid red;
+}
+.form-btn:nth-last-of-type(1){
+    border: 1px solid rgb(67, 64, 241);
+    float: right;
+}
+@media(max-width: 375px){
+    .documento{
+        width: 100%;
+        height: 560px;
+        margin: 0px auto ;
+    
+    
+    }
+    .form-background{
+        position: static;
+        width: 100%;
+        height: 500px;
+        background-color: rgb(20, 38, 97);
+        border-radius: 0px;
+        color: rgb(48, 46, 46);
+        margin: 0 auto ;
+        
+        
+    }
+    .form-second-background{
+        position: absolute;
+        height: 75%;
+        width: 100%;
+        backdrop-filter: blur(65px);
+        border-radius: 0px;
+        
+    
+    }
+    .LSC-img{
+        position: absolute;
+        background-image: url("../img/imgLSC.jpg");
+        background-size: cover;
+        top: 120px;
+        left: 0;
+        right: 0;
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+        border-radius: 100%;
+        border: 10px solid white;
+        z-index: 30;
+    
+    
+    }
+    
+    .form-items{
+        width: 90%;
+        height: 400px;
+        position: relative;
+        top: 50px;
+        margin: 90px auto 0;
+        
+    
+    
+    }
+    .form-items > .form-items__LSC-text{
+        text-align: center;
+        font-size: 40px;
+        font-family: Verdana, Tahoma, sans-serif;
+        
+    
+    }
+    .form-items > .form-items__wtv-text{
+        
+        border: 1px soldi red;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form{
+        margin: 25px 0px 0px 0px;
+    }
+    .form-items > form > label{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .form-items > form > input{
+        width: 100%;
+        
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid rgb(27, 27, 27);
+        font-size: 16px;
+        color: rgb(46, 76, 131);
+        margin-bottom: 20px;
+    
+    }
+    
+    .form-items > form > input:focus{
+        outline: none;
+    }
+    .form-btn{
+        width: 120px;
+        padding: 7px;
+        border-radius: 10px;
+        border: none;
+        font-family: Arial, Helvetica;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .form-btn:nth-last-of-type(1){
+        border: 1px solid red;
+        float: right;
+    }
+}
