@@ -16,7 +16,7 @@
     top: 50px;
     width: 80%;
     height: 500px;
-    background-image: url("../img/wallpaper.jpg");
+    background-image: url("wallpaper.jpg");
     border-radius: 10px;
     color: rgb(43, 41, 41);
     margin: 0px auto;
@@ -34,7 +34,7 @@
 }
 .LSC-img{
     position: absolute;
-    background-image: url("../img/imgLSC.jpg");
+    background-image: url("imgLSC.jpg");
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -139,7 +139,7 @@ form{
     }
     .LSC-img{
         position: absolute;
-        background-image: url("../img/imgLSC.jpg");
+        background-image: url("imgLSC.jpg");
         background-size: cover;
         top: 120px;
         left: 0;
