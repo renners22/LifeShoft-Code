@@ -58,7 +58,7 @@
         /*Fondo de portada*/
     .div-banner{
         height: 300px;
-        background-image: url("../img/portada\(Comprimida\).jpg");
+        background-image: url("portada\(Comprimida\).jpg");
         background-size: cover;/*se ajusta el tamaño de la imagen a la caja*/
         background-attachment: fixed;/*posisciona el background en el viewport*/
         background-position: center -160px;
